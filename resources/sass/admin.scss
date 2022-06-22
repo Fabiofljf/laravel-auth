@@ -24,8 +24,16 @@ img {
     background-color: $grey;
 }
 
-.h_100 {
-    height: 100vh;
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.bg_lightslategray {
+    background-color: lightslategray;
 }
 
 

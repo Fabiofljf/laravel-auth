@@ -2,10 +2,11 @@
 
 @section('content')
 <section id="create_dashboard">
-    <h1 class="py-4">Dashboard</h1>
+    <h1 class="p-4 mb-0 border shadow text-center">Dashboard-Create</h1>
     <div class="row">
-        <div class="col-2 h_100 bg_grey">
-            <ul class="nav flex-column">
+        <div class="col-2 bg_grey">
+            <h5 class="p-4 my-3 text-light">Esplora tutte le funzionalità</h5>
+            <ul class="nav flex-column p-4">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="{{ route('admin.home') }}">
                         <span data-feather="home" class="align-text-bottom"></span>
@@ -30,7 +31,7 @@
             </ul>
         </div>
         <!-- /.col sx -->
-        <div class="col">
+        <div class="col bg_lightslategray">
             <form action="{{route('admin.posts.store')}}" method="post">
                 @csrf
                 <div class="mb-3 row">
@@ -74,7 +75,7 @@
                 <!-- btn -->
             </form>
         </div>
-        <!-- /.col sx -->
+        <!-- /.col dx -->
     </div>
 </section>
 <!-- /#dashboard -->

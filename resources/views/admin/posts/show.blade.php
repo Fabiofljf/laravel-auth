@@ -2,10 +2,11 @@
 
 @section('content')
 <section id="dashboard">
-    <h1 class="py-4">Dashboard</h1>
+    <h1 class="p-4 mb-0 border shadow text-center">Dashboard-Post</h1>
     <div class="row">
-        <div class="col-2 h_100 bg_grey">
-            <ul class="nav flex-column">
+        <div class="col-2 bg_grey">
+            <h5 class="p-4 my-3 text-light">Esplora tutte le funzionalità</h5>
+            <ul class="nav flex-column p-4">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="{{ route('admin.home') }}">
                         <span data-feather="home" class="align-text-bottom"></span>
@@ -30,7 +31,7 @@
             </ul>
         </div>
         <!-- /.col sx -->
-        <div class="col">
+        <div class="col bg_lightslategray">
             <section id="intro">
                 <div class="container">
                     <div class="row flex-column">
@@ -40,11 +41,11 @@
                         <!-- /.col introduzione-->
                         <div class="col">
                             <div class="card text-start d-flex">
-                              <img class="card-img-top" style="width:250px" src="{{$post->thumb}}" alt="{{$post->title}}">
-                              <div class="card-body">
-                                <h4 class="card-title">{{$post->title}}</h4>
-                                <p class="card-text">{{$post->description}}</p>
-                              </div>
+                                <img class="card-img-top" style="width:250px" src="{{$post->thumb}}" alt="{{$post->title}}">
+                                <div class="card-body">
+                                    <h4 class="card-title">{{$post->title}}</h4>
+                                    <p class="card-text">{{$post->description}}</p>
+                                </div>
                             </div>
                         </div>
                         <!-- /.col singola card-->
@@ -53,7 +54,7 @@
             </section>
             <!-- /#intro -->
         </div>
-        <!-- /.col sx -->
+        <!-- /.col dx -->
     </div>
 </section>
 <!-- /#dashboard -->
