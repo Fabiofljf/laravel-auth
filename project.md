@@ -52,3 +52,6 @@ Resources>sass:
 15. Modifica il file webpack.mix.js;
 16. Resource>js:
 - Creo nuovo file admin js;
+
+
+slug per parametro in url
