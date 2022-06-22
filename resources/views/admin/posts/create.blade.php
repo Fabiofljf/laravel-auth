@@ -1,7 +1,7 @@
 @extends('layouts.admin')
 
 @section('content')
-<section id="dashboard">
+<section id="create_dashboard">
     <h1 class="py-4">Dashboard</h1>
     <div class="row">
         <div class="col-2 h_100 bg_grey">

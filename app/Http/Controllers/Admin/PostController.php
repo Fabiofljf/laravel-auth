@@ -82,7 +82,6 @@ class PostController extends Controller
      */
     public function update(PostRequest $request, Post $post)
     {
-        //dd($request->all());
 
         // validate data
         $val_data = $request->validated();
