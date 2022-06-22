@@ -87,7 +87,9 @@
             </div>
         </nav>
 
-        <div id="root"></div>
+        <div id="root">
+            ciao sono home
+        </div>
     </div>
 </body>
 

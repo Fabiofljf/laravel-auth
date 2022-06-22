@@ -39,8 +39,6 @@ class PostController extends Controller
      */
     public function store(PostRequest $request)
     {
-        //dd($request->all());
-
         // Validate data
         $val_data = $request->validated();
         // Gererate the slug

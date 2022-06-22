@@ -1,6 +1,6 @@
 <?php
 
-use App\Post;
+use App\Models\Post;
 use Illuminate\Database\Seeder;
 
 class PostSeeder extends Seeder
@@ -17,8 +17,8 @@ class PostSeeder extends Seeder
 
         foreach ($posts as $post) {
             $new_post = new Post();
-            $new_post->name = $post['title'];
-            $new_post->image = $post['thumb'];
+            $new_post->title = $post['title'];
+            $new_post->thumb = $post['thumb'];
             $new_post->description = $post['description'];
             $new_post->save();
         }
